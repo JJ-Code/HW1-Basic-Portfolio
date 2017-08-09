@@ -1,1 +1,3 @@
-# HW1-Basic-Portfolio
+# Basic-Portfolio
+Assignment1 - Basic-Portfolio
+By Jaymee Liu
