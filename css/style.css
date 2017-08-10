@@ -166,6 +166,12 @@ form {
 }
 
 /* Portflio Page */
+#main-pages {
+    width: 650px;
+    height: 100%;
+    float: left;
+}
+
 
 .projects {
     width: 275px;
@@ -182,9 +188,9 @@ form {
 }
 
 
-#project-title {
+#puppy {
     width: 275px;
-    position: relative;
+    position: absolute;
     padding: 10px;
     background: #4aaaa5;
     color: #ffffff;
@@ -192,9 +198,75 @@ form {
     font-size: 20px;
     text-align: center;
     z-index: 5;
-
-
+    top: 230px;
 }
+
+#golden-gate {
+    width: 275px;
+    position: absolute;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    z-index: 5;
+    top: 230px;
+}
+
+#sushi {
+    width: 275px;
+    position: absolute;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    z-index: 5;
+    top: 230px;
+}
+
+#transport {
+    width: 275px;
+    position: absolute;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    z-index: 5;
+    top: 230px;
+}
+
+#earbuds {
+    width: 275px;
+    position: absolute;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    z-index: 5;
+    top: 230px;
+}
+
+#sports {
+    width: 275px;
+    position: absolute;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    z-index: 5;
+    top: 230px;
+}
+
+
 
 
 
