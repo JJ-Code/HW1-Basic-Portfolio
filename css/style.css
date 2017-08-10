@@ -167,27 +167,31 @@ form {
 
 /* Portflio Page */
 .main-images {
-    width: 650px;
+    clear: both;
+    width: 600px;
     height: 100%;
     float: left;
     position: relative;
 }
 
 
-.projects {
+.projects-left {
     width: 275px;
     height: 230px;
     z-index: 2;
-
-
-}
-
-.projects image {
-    clear: both;
     position: relative;
-
+    float: left;
+    padding-right: 25px;
 }
 
+.projects-right {
+    width: 275px;
+    height: 230px;
+    z-index: 2;
+    position: relative;
+    float: left;
+    padding-left: 35px;
+}
 
 #puppy {
     width: 275px;
@@ -199,7 +203,8 @@ form {
     font-size: 20px;
     text-align: center;
     z-index: 5;
-    top: 230px;
+    top: 140px;
+    float: left;
 }
 
 #golden-gate {
@@ -212,7 +217,8 @@ form {
     font-size: 20px;
     text-align: center;
     z-index: 5;
-    top: 230px;
+    top: 140px;
+
 }
 
 #sushi {
@@ -225,7 +231,20 @@ form {
     font-size: 20px;
     text-align: center;
     z-index: 5;
-    top: 230px;
+    top: 140px;
+}
+
+#sports {
+    width: 275px;
+    position: absolute;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    top: 140px;
+
 }
 
 #transport {
@@ -237,8 +256,8 @@ form {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    z-index: 5;
-    top: 230px;
+    top: 140px;
+
 }
 
 #earbuds {
@@ -251,21 +270,10 @@ form {
     font-size: 20px;
     text-align: center;
     z-index: 5;
-    top: 230px;
+    top: 140px;
 }
 
-#sports {
-    width: 275px;
-    position: absolute;
-    padding: 10px;
-    background: #4aaaa5;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    z-index: 5;
-    top: 230px;
-}
+
 
 
 
