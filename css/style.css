@@ -166,17 +166,18 @@ form {
 }
 
 /* Portflio Page */
-#main-pages {
+.main-images {
     width: 650px;
     height: 100%;
     float: left;
+    position: relative;
 }
 
 
 .projects {
     width: 275px;
     height: 230px;
-
+    z-index: 2;
 
 
 }
@@ -184,7 +185,7 @@ form {
 .projects image {
     clear: both;
     position: relative;
-    z-index: 2;
+
 }
 
 
